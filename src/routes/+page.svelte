@@ -1,18 +1,62 @@
-<h1 class="text-3xl font-bold m-2">Jorrel Rajan</h1>
-<br />
+<script>
+	import { windowSize } from '$lib/stores/windowSizeStore.js';
+	import About from './About.svelte';
+	import Experience from './Experience.svelte';
+	import Research from './Research.svelte';
+	import Projects from './Projects.svelte';
+	import Resume from './Resume.svelte';
+</script>
 
-<p>Hi im jorrel</p>
+<div id="top" class="mt-28 scroll-mt-32"></div>
 
-<div class="flex gap-4">
-    <a href="https://github.com/jorrel1230" class="w-min">
-        <div class="bg-slate-100 bg-opacity-50 shadow-md rounded-md p-2 m-2 w-min hover:scale-110 hover:shadow-lg hover:bg-opacity-100 transition-all duration-300">
-            <p>github</p>
-        </div>
-    </a>
-
-    <a href="https://www.linkedin.com/in/jorrelrajan/" class="w-min">
-        <div class="bg-slate-100 bg-opacity-50 shadow-md rounded-md p-2 m-2 w-min hover:scale-110 hover:shadow-lg hover:bg-opacity-100 transition-all duration-300">
-            <p>linkedin</p>
-        </div>
-    </a>
+<div
+	id="about"
+	class="m-5 flex scroll-mt-32 rounded-lg bg-white p-4
+		{$windowSize.isMobile ? 'flex-col items-center py-8 text-center' : 'h-fit flex-row items-center'}"
+>
+	<About />
 </div>
+
+<hr class="m-5" />
+
+<div
+	id="experience"
+	class="m-5 flex scroll-mt-32 rounded-lg bg-white p-4
+		{$windowSize.isMobile ? 'flex-col items-center py-8 text-center' : 'h-fit flex-row items-center'}"
+>
+	<Experience />
+</div>
+
+<hr class="m-5" />
+
+<div
+	id="research"
+	class="m-5 flex scroll-mt-32 rounded-lg bg-white p-4
+		{$windowSize.isMobile ? 'flex-col items-center py-8 text-center' : 'h-fit flex-row items-center'}"
+>
+	<Research />
+</div>
+
+<hr class="m-5" />
+<div
+	id="projects"
+	class="m-5 flex scroll-mt-32 rounded-lg bg-white p-4
+		{$windowSize.isMobile ? 'flex-col items-center py-8 text-center' : 'h-fit flex-row items-center'}"
+>
+	<Projects />
+</div>
+
+<hr class="m-5" />
+
+<div
+	id="resume"
+	class="m-5 flex scroll-mt-32 rounded-lg bg-white p-4
+		{$windowSize.isMobile ? 'flex-col items-center py-8 text-center' : 'h-fit flex-row items-center'}"
+>
+	<Resume />
+</div>
+
+<style>
+	/* You can add any global or component-specific styles here if needed, */
+	/* though Tailwind CSS is handling most of it. */
+</style>
