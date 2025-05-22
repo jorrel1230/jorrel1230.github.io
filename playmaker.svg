@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" width="150" height="150"><svg id="SvgjsSvg1001" data-name="Layer 4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0f172a;
+      }
+      .cls-2 {
+        fill: transparent;
+      }
+    </style>
+  </defs>
+  <rect class="cls-2" width="150" height="150"></rect>
+  <path class="cls-1" d="M12.65,31.77v86.47h22.52v-32.94h7.87c4.08,0,7.7-.46,10.92-1.33v-51.35c-2.28-.56-4.79-.85-7.53-.85H12.65ZM45.89,66.52c-1.49,1.7-3.65,2.54-6.48,2.54h-4.24v-21.07h4.24c5.81,0,8.72,3.51,8.72,10.54,0,3.63-.75,6.3-2.24,7.99Z"></path>
+  <polygon class="cls-1" points="105.31 31.77 96.28 82.72 96.04 82.72 87 31.77 54.97 31.77 54.97 117.77 75.92 117.77 75.92 53.69 76.16 53.69 88.09 117.77 104.23 117.77 116.15 53.69 116.39 53.69 116.39 117.77 137.35 117.77 137.35 31.77 105.31 31.77"></polygon>
+</svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+@media (prefers-color-scheme: dark) { :root { filter: none; } }
+</style></svg>
