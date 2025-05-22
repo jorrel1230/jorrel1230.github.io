@@ -7,11 +7,10 @@
 <div class="flex w-full flex-col">
 	<h1 class="text-6xl font-bold">My Experience</h1>
 	<p>Click the cards to learn more!</p>
-	<br />
 	<h2 class="mb-5 text-3xl font-bold">Software Engineering</h2>
 
 	<GlassWrapper
-		class="w-[90%] self-center rounded-2xl p-5"
+		class="mb-5 w-[90%] self-center rounded-2xl p-5"
 		onclick={() => {
 			alert('TODO');
 		}}
@@ -25,9 +24,9 @@
 		</div>
 		<div class="">To Be Updated..</div>
 	</GlassWrapper>
-	<br />
+
 	<GlassWrapper
-		class="w-[90%] self-center rounded-2xl p-5"
+		class="mb-5 w-[90%] self-center rounded-2xl p-5"
 		onclick={() => {
 			alert('TODO');
 		}}
@@ -41,9 +40,9 @@
 		</div>
 		<div class="">To Be Updated..</div>
 	</GlassWrapper>
-	<br />
+
 	<GlassWrapper
-		class="w-[90%] self-center rounded-2xl p-5"
+		class="mb-5 w-[90%] self-center rounded-2xl p-5"
 		onclick={() => {
 			alert('TODO');
 		}}
