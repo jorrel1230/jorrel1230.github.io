@@ -9,7 +9,7 @@
 >
 	<h1 class="mb-2 text-6xl font-bold md:text-6xl">Resume</h1>
 
-	<p class="mt-2 text-xl md:text-2xl">Last Updated September 2024.</p>
+	<p class="mt-2 text-xl md:text-2xl">Last Updated September 2024. (Outdated)</p>
 	{#if $windowSize.isMobile}
 		<a
 			href="{base}/Rajan,Jorrel.pdf"

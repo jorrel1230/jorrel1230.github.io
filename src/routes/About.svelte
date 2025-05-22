@@ -16,7 +16,9 @@
 	<p class="text-xl md:text-3xl">Majoring in Computer Science</p>
 	<p class="text-lg md:text-xl">Minoring in Statistics and Machine Learning, Robotics</p>
 
-	<p class="mt-4 text-lg md:text-xl">Interested in working in AI/ML and Systems</p>
+	<p class="mt-4 text-lg md:text-xl">
+		Interested in working in Software Engineering, AI/ML, and Systems
+	</p>
 
 	<div class="mt-6 flex space-x-3">
 		<a href="https://github.com/jorrel1230" class="w-auto">
