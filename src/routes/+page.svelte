@@ -3,8 +3,8 @@
 	import About from './About.svelte';
 	import Experience from './Experience.svelte';
 	import Research from './Research.svelte';
-	import Projects from './Projects.svelte';
 	import Resume from './Resume.svelte';
+	import Skills from './Skills.svelte';
 </script>
 
 <div id="top" class="mt-28 scroll-mt-32"></div>
@@ -38,12 +38,13 @@
 </div>
 
 <hr class="m-5" />
+
 <div
-	id="projects"
+	id="skills"
 	class="m-5 flex scroll-mt-32 rounded-lg bg-white p-4
 		{$windowSize.isMobile ? 'flex-col items-center py-8 text-center' : 'h-fit flex-row items-center'}"
 >
-	<Projects />
+	<Skills />
 </div>
 
 <hr class="m-5" />

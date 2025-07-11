@@ -35,8 +35,8 @@
 					<p class="text-2xl">Research</p>
 				</a>
 
-				<a href="#projects">
-					<p class="text-2xl">Projects</p>
+				<a href="#skills">
+					<p class="text-2xl">Skills</p>
 				</a>
 
 				<a href="#resume">
@@ -73,8 +73,8 @@
 				<p class="text-2xl">Research</p>
 			</a>
 
-			<a href="#projects" on:click={handleLinkClick}>
-				<p class="text-2xl">Projects</p>
+			<a href="#skills" on:click={handleLinkClick}>
+				<p class="text-2xl">Skills</p>
 			</a>
 
 			<a href="#resume" on:click={handleLinkClick}>

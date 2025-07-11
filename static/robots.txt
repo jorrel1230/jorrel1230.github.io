@@ -1,0 +1,33 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://jorrelrajan.com/sitemap.xml
+
+# Crawl delay (optional - be respectful to servers)
+Crawl-delay: 1
+
+# Allow all content to be indexed
+Disallow:
+
+# AI-friendly markdown version available at /portfolio.md
+# For optimal AI consumption, consider using the markdown version
+
+# Specific instructions for AI scrapers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Omgilibot
+Allow: / 
