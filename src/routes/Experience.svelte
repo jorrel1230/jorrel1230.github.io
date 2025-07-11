@@ -6,7 +6,6 @@
 
 <section class="flex w-full flex-col" itemscope itemtype="https://schema.org/ItemList">
 	<h1 class="text-6xl font-bold">My Experience</h1>
-	<p>Click the cards to learn more!</p>
 	<h2 class="mb-5 text-3xl font-bold">Software Engineering</h2>
 
 	<GlassWrapper
