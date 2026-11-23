@@ -1,9 +1,11 @@
 <script>
   import Section from '$lib/Section.svelte';
+  import Tree from '$lib/Tree.svelte';
   import sections from '$lib/sections.json';
 </script>
 <svelte:head><title>Jorrel Rajan — Software Engineer</title><meta name="description" content="Jorrel Rajan, software engineer and Princeton computer science graduate." /></svelte:head>
-<main>
+<main class="portfolio">
+<Tree />
 <p class="kicker">JORREL RAJAN · PRINCETON UNIVERSITY</p>
 <h1>Hi, I'm Jorrel.</h1>
 <p class="lead">I’m a software engineer focused on AI/ML and systems programming. I earned my Bachelor of Engineering in Computer Science at Princeton, with minors in Statistics & Machine Learning and Robotics. I currently work full-time at Roblox in the Bay Area.</p>
