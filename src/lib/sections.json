@@ -1,0 +1,78 @@
+[
+  {
+    "title": "Experience",
+    "entries": [
+      {
+        "image": "/logos/roblox.png",
+        "alt": "Roblox",
+        "title": "Software Engineer · Preset",
+        "detail": "— July 2026–Present"
+      },
+      {
+        "image": "/logos/vanguard.png",
+        "alt": "Vanguard",
+        "title": "Software Engineering Intern · Vanguard",
+        "detail": "— May–August 2025",
+        "description": "Built AWS account tracking with Lambda, S3, Angular; an LLM transaction classifier using Bedrock and DynamoDB; and a REST API."
+      },
+      {
+        "image": "/logos/playmaker.png",
+        "alt": "PlayMaker",
+        "title": "AI & Backend Software Engineer Intern · PlayMaker",
+        "detail": "— December 2024–May 2025",
+        "description": "Created a contract analysis pipeline using Google Cloud, PostgreSQL/pgvector, Gemini-powered RAG, and automated asset extraction."
+      },
+      {
+        "image": "/logos/princeton.png",
+        "alt": "Princeton University",
+        "title": "Electronics and Control Systems Intern · Princeton Physics",
+        "detail": "— May–September 2023",
+        "description": "Built C++ autonomous glider controls for NASA’s FLOATing DRAGON challenge and a MATLAB hardware-in-the-loop pipeline, cutting development time 40%."
+      },
+      {
+        "image": "/logos/rocketry.png",
+        "alt": "Princeton Rocketry",
+        "title": "Avionics Sub-team Lead · Princeton Rocketry",
+        "detail": "— September 2024–May 2025",
+        "description": "Led eight peers building an STM32 flight computer, air-brake control, radio protocol, and Kalman filtering; flown to 30,000 feet at Spaceport America Cup."
+      },
+      {
+        "image": "/logos/princeton.png",
+        "alt": "Princeton University",
+        "title": "Teaching Assistant",
+        "detail": "— COS226 (Algorithms), COS217 (Systems Programming); grader for COS333 (Full-Stack Web Development)."
+      }
+    ]
+  },
+  {
+    "title": "Research",
+    "entries": [
+      {
+        "image": "/logos/princeton.png",
+        "alt": "Princeton University",
+        "title": "Protein Homology Detection Using Protein Language Model Embeddings",
+        "detail": "· Princeton, January–May 2025",
+        "professor": "Mona Singh & Quang Minh Hoang",
+        "lab": "Computational Biology/Genomics Lab",
+        "description": "Developed a fine-tuned protein language model embedding approach with contrastive learning, improving detection accuracy over BLAST and enabling scalable search with a 5× speedup using FAISS."
+      },
+      {
+        "image": "/logos/princeton.png",
+        "alt": "Princeton University",
+        "title": "Bridging AR and Physical Actuation for a Home Storage Device",
+        "detail": "· Princeton",
+        "professor": "Parastoo Abtahi",
+        "lab": "Augmented Reality Lab",
+        "description": "Built MagicStorage, a prototype combining AR glasses, a robotic arm, and vision-language models to identify, store, and retrieve household items using visual and voice commands. Won Senior Independent Work Prize. Honestly, I just had fun messing around with a lot of cool tech!"
+      }
+    ]
+  },
+  {
+    "title": "Skills",
+    "entries": [
+      {
+        "description": "Python, JavaScript, Java, C/C++, Assembly, SQL, HTML/CSS, R, MATLAB, Swift. AWS (Lambda, S3, API Gateway, DynamoDB, SES, Bedrock), React, Angular, SvelteKit, Node, Express, Vite, Flask, Django, pandas, NumPy, PyTorch, TensorFlow, FAISS, LangChain, MongoDB, PostgreSQL, Docker, Git, Linux, embedded systems, STM32, Kalman filters, hardware-in-the-loop, control systems."
+      }
+    ]
+  }
+]

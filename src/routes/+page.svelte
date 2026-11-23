@@ -1,63 +1,14 @@
 <script>
-	import { windowSize } from '$lib/stores/windowSizeStore.js';
-	import About from './About.svelte';
-	import Experience from './Experience.svelte';
-	import Research from './Research.svelte';
-	import Resume from './Resume.svelte';
-	import Skills from './Skills.svelte';
+  import Section from '$lib/Section.svelte';
+  import sections from '$lib/sections.json';
 </script>
-
-<div id="top" class="mt-28 scroll-mt-32"></div>
-
-<div
-	id="about"
-	class="m-5 flex scroll-mt-32 rounded-lg bg-white p-4
-		{$windowSize.isMobile ? 'flex-col items-center py-8 text-center' : 'h-fit flex-row items-center'}"
->
-	<About />
-</div>
-
-<hr class="m-5" />
-
-<div
-	id="experience"
-	class="m-5 flex scroll-mt-32 rounded-lg bg-white p-4
-		{$windowSize.isMobile ? 'flex-col items-center py-8 text-center' : 'h-fit flex-row items-center'}"
->
-	<Experience />
-</div>
-
-<hr class="m-5" />
-
-<div
-	id="research"
-	class="m-5 flex scroll-mt-32 rounded-lg bg-white p-4
-		{$windowSize.isMobile ? 'flex-col items-center py-8 text-center' : 'h-fit flex-row items-center'}"
->
-	<Research />
-</div>
-
-<hr class="m-5" />
-
-<div
-	id="skills"
-	class="m-5 flex scroll-mt-32 rounded-lg bg-white p-4
-		{$windowSize.isMobile ? 'flex-col items-center py-8 text-center' : 'h-fit flex-row items-center'}"
->
-	<Skills />
-</div>
-
-<hr class="m-5" />
-
-<div
-	id="resume"
-	class="m-5 flex scroll-mt-32 rounded-lg bg-white p-4
-		{$windowSize.isMobile ? 'flex-col items-center py-8 text-center' : 'h-fit flex-row items-center'}"
->
-	<Resume />
-</div>
-
-<style>
-	/* You can add any global or component-specific styles here if needed, */
-	/* though Tailwind CSS is handling most of it. */
-</style>
+<svelte:head><title>Jorrel Rajan — Software Engineer</title><meta name="description" content="Jorrel Rajan, Princeton computer science student and software engineer." /></svelte:head>
+<main>
+<p class="kicker">JORREL RAJAN · PRINCETON UNIVERSITY</p>
+<h1>Hi, I'm Jorrel.</h1>
+<p class="lead">Computer science student focused on software engineering, AI/ML, and systems programming. Bachelor of Engineering in Computer Science, with minors in Statistics & Machine Learning and Robotics.</p>
+<p><a class="contact" href="https://www.linkedin.com/in/jorrelrajan/">LinkedIn →</a>　<a class="contact" href="https://github.com/jorrel1230">GitHub →</a>　<a class="contact" href="/Rajan,Jorrel.pdf">Resume (PDF) →</a></p>
+{#each sections as section}
+  <Section {...section} />
+{/each}
+</main>

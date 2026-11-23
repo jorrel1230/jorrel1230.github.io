@@ -1,0 +1,17 @@
+<svelte:head>
+  <title>Misc — Jorrel Rajan</title>
+</svelte:head>
+
+<main>
+  <h1>Miscellaneous</h1>
+  <p class="lead">A few things in progress.</p>
+  <hr class="rule" />
+  <div class="copy">
+    <ul class="misc-links">
+      <li><a href="https://recipes.jorrelrajan.com/">recipes.jorrelrajan.com</a> <small>Personal journal of recipes I know me and my roommate can cook.</small></li>
+      <li><span>Project one</span> <small>Under construction</small></li>
+      <li><span>Project two</span> <small>Under construction</small></li>
+      <li><span>Project three</span> <small>Under construction</small></li>
+    </ul>
+  </div>
+</main>

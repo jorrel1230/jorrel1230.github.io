@@ -1,22 +1,38 @@
-@import 'tailwindcss';
-@plugin '@tailwindcss/forms';
-@plugin '@tailwindcss/typography';
-
-@font-face {
-  font-family: 'sanfran';
-  src: url('/fonts/sanfranciscodisplay-regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
 :root {
-  --font-body: 'sanfran', sans-serif;
+  color-scheme: light;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #252521;
+  background: #f7f7f4;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
-body {
-  font-family: var(--font-body);
-}
-
-html{
-    scroll-behavior: smooth;
-}
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; }
+.page { width: min(100% - 48px, 900px); margin: 0 auto; }
+header { height: 76px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid #e5e5df; }
+.brand { color: inherit; font-size: 13px; font-weight: 600; letter-spacing: -.02em; text-decoration: none; }
+nav { display: flex; align-items: center; gap: 20px; }
+.nav { color: #77776f; font-size: 12px; text-decoration: none; text-underline-offset: 4px; }
+.nav[aria-current="page"] { color: #252521; font-weight: 600; }
+.nav:hover { text-decoration: underline; }
+main { padding: 40px 0 120px; }
+.kicker { margin: 0 0 24px; color: #77776f; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; }
+h1 { max-width: 620px; margin: 0; font-size: clamp(48px, 9vw, 76px); font-weight: 500; letter-spacing: -.065em; line-height: 1.02; }
+.lead { max-width: 540px; margin: 28px 0 0; color: #696961; font-size: 17px; line-height: 1.8; }
+.rule { width: 42px; height: 1px; margin: 54px 0 27px; border: 0; background: #aaa99f; }
+.copy { max-width: 800px; color: #55554e; font-size: 14px; line-height: 1.9; }
+.copy p { margin: 0 0 20px; }
+.item { display: flex; align-items: flex-start; gap: 16px; }
+.item img { width: 60px; height: 60px; flex: none; object-fit: contain; }
+.research-meta { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; margin: 5px 0; font-size: 12px; line-height: 1.5; }
+.lab { padding: 2px 8px; border: 1px solid #deded6; border-radius: 4px; color: #55554e; font-weight: 600; }
+.collaborators { color: #77776f; font-style: italic; }
+.misc-links { list-style: none; margin: 0; padding: 0; }
+.misc-links li { padding: 12px 0; border-bottom: 1px solid #e5e5df; }
+.misc-links li span { font-weight: 600; }
+.misc-links small { margin-left: 10px; color: #85857d; }
+.contact { display: inline-block; margin-top: 20px; color: #252521; font-size: 13px; text-decoration-thickness: 1px; text-underline-offset: 4px; }
+footer { padding: 20px 0 28px; border-top: 1px solid #e5e5df; color: #85857d; font-size: 11px; }
+@media (max-width: 520px) { .page { width: min(100% - 36px, 900px); } header { height: auto; min-height: 76px; padding: 16px 0; flex-wrap: wrap; gap: 12px; } nav { flex-wrap: wrap; gap: 12px; } .lead { font-size: 15px; } }
